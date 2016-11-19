@@ -1,9 +1,9 @@
 
 #include "SyntaxHighlighter.h"
-#include "QJson4/QJsonArray.h"
-#include "QJson4/QJsonDocument.h"
-#include "QJson4/QJsonObject.h"
-#include "QJson4/QJsonParseError.h"
+#include <QtCore/QJsonArray>
+#include <QtCore/QJsonDocument>
+#include <QtCore/QJsonObject>
+#include <QtCore/QJsonParseError>
 #include "TextBuffer.h"
 #include "X11Colors.h"
 #include <QDomDocument>

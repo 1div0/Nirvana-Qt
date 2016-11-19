@@ -31,17 +31,9 @@ HEADERS += \
     X11Colors.h \
     Types.h \
     regex/Regex.h \
-	regex/RegexMatch.h \
-	regex/RegexException.h \
-	regex/RegexCommon.h \
-    QJson4/QJsonArray.h \
-    QJson4/QJsonDocument.h \
-    QJson4/QJsonObject.h \
-    QJson4/QJsonParseError.h \
-    QJson4/QJsonParser.h \
-    QJson4/QJsonRoot.h \
-    QJson4/QJsonValue.h \
-    QJson4/QJsonValueRef.h
+    regex/RegexMatch.h \
+    regex/RegexException.h \
+    regex/RegexCommon.h
 	
 SOURCES += \
     main.cpp          \
@@ -51,15 +43,8 @@ SOURCES += \
     SyntaxHighlighter.cpp \
     X11Colors.cpp \
     regex/Regex.cpp \
-	regex/RegexMatch.cpp \	
-	regex/RegexCommon.cpp \
-    QJson4/QJsonArray.cpp \
-    QJson4/QJsonDocument.cpp \
-    QJson4/QJsonObject.cpp \
-    QJson4/QJsonParseError.cpp \
-    QJson4/QJsonParser.cpp \
-    QJson4/QJsonValue.cpp \
-    QJson4/QJsonValueRef.cpp
+    regex/RegexMatch.cpp \
+    regex/RegexCommon.cpp
 
 RESOURCES += \
     NirvanaQt.qrc
